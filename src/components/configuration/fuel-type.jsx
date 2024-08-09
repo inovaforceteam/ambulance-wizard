@@ -1,11 +1,11 @@
 "use client";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import Label from "../label";
+import Label from "..common/label";
 import styles from "@/styles/components/configuration/fuel_type.module.scss";
 import { getAllInformation } from "@/services/api";
 import SelectButton from "../common/select-button";
-import OptionButton from "../option-button";
+import OptionButton from "..common/option-button";
 const FuelTypeSelector = ({ setActive, generally, setGenerally,name,buttons }) => {
   const [selectedFuelType, setSelectedFuelType] = useState("");
   const [vehicleData, setVehicleData] = useState(null);

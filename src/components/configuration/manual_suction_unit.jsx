@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { getAllInformation } from "@/services/api";
 import Image from "next/image";
 import SelectButton from "../common/select-button";
-import Label from "../label";
+import Label from "..common/label";
 import OptionButton from "../common/option-button";
 
 const ManualSuctionUnit = ({ setActive, generally, setGenerally,name, buttons }) => {

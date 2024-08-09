@@ -4,7 +4,7 @@ import Label from '../label';
 import styles from '@/styles/components/configuration/traction_type.module.scss';
 import { getAllInformation } from '@/services/api';
 import SelectButton from '../common/select-button';
-import OptionButton from '../option-button';
+import OptionButton from '..common/option-button';
 
 const TractionTypeSelector = ({setActive,generally,setGenerally,name,buttons}) => {
     const [selectedTractionType, setSelectedTractionType] = useState("");

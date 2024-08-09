@@ -1,5 +1,5 @@
 "use client";
-import styles from "@/styles/components/language.module.scss";
+import styles from "@/styles/components/common/language.module.scss";
 import { Button, Modal } from "react-bootstrap";
 
 const ModalComp = ({ dict, show, onHide }) => {

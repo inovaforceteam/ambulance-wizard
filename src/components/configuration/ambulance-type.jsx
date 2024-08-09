@@ -1,10 +1,10 @@
 "use client";
 import { useEffect, useState } from "react";
-import Label from "../label";
+import Label from "..common/label";
 import styles from "@/styles/components/configuration/ambulance_type.module.scss";
 import { getAllInformation } from "@/services/api";
 import SelectButton from "../common/select-button";
-import OptionButton from "../option-button";
+import OptionButton from "..common/option-button";
 
 const AmbulanceType = ({ setActive, generally, setGenerally, name, buttons }) => {
   const [selectedAmbulanceType, setSelectedAmbulanceType] = useState("");
