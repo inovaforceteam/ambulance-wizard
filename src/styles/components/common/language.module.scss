@@ -1,0 +1,23 @@
+@use "@/styles/variable" as v;
+@use "@/styles/mixins" as m;
+
+.container {
+    display: flex;
+    flex-direction: column;
+    @include m.container(90%); 
+    color: v.$text-color;
+    font-size: 18px;
+    .title{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 600;
+        color: v.$text-color;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+    }
+   
+
+}

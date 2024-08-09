@@ -1,0 +1,34 @@
+@use "@/styles/variable" as v;
+@use "@/styles/mixins" as m;
+
+ 
+.label{
+    display: flex;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    margin:auto;
+    margin-bottom: 20px;
+
+    width: 800px !important;
+
+    .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    width: 800px;
+    height: 40px;
+    background-color: v.$label-background-color;
+    color: v.$text-color;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 5px;
+
+    }
+}
+
+@media screen and (max-width: 795px) {
+    .label{
+        width: 90% !important;
+    }
+}

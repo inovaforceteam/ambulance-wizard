@@ -1,0 +1,16 @@
+@use "@/styles/variable" as v;
+@use "@/styles/mixins" as m;
+
+
+.vehicle_type {
+  display: flex;
+  margin: auto;
+
+  
+}
+.vehicle_selected {
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: 600;
+  gap: 20px; 
+}

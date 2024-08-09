@@ -1,0 +1,137 @@
+{
+  "home": {
+    "title": "Outil de Configuration d'Ambulance",
+    "overview": {
+        "title": "Aperçu",
+        "description": "Cet outil fournit une interface conviviale pour personnaliser et configurer les ambulances en fonction des besoins médicaux et opérationnels spécifiques. Les utilisateurs peuvent choisir parmi diverses options pour équiper l'ambulance avec le matériel médical et les fonctionnalités nécessaires."
+      },    
+      "howToUse": {
+      "title": "Comment utiliser",
+      "step1": {
+        "title": "Choisissez le Type de Véhicule :",
+        "description": "Sélectionnez parmi différents types de véhicules d'ambulance, tels que le type fourgon ou le type caisse. Ce choix détermine le modèle de base de votre ambulance."
+      },
+      "step2": {
+        "title": "Sélectionnez le Type d'Ambulance :",
+        "description": "Choisissez le type de service d'ambulance requis—Support Vital de Base, Support Vital Avancé ou Soins Intensifs. En fonction du choix, des options supplémentaires pour des configurations pédiatriques ou néonatales sont disponibles."
+      },
+      "step3": {
+        "title": "Ajoutez des Fonctionnalités Supplémentaires :",
+        "description": "Ajoutez des fonctionnalités supplémentaires à l'ambulance, telles que des défibrillateurs, des moniteurs pour signes vitaux, des kits de médicaments et d'injections, des ventilateurs portables et des unités d'aspiration. Chaque fonctionnalité peut être ajoutée ou retirée d'un simple clic."
+      },
+      "step4": {
+        "title": "Finalisez la Configuration :",
+        "description": "Revisitez vos choix, qui sont mis à jour dynamiquement et affichés au fur et à mesure que vous sélectionnez différentes options. Ajustez vos sélections si nécessaire avant la soumission finale."
+      },
+      "step5": {
+        "title": "Soumettez ou Contactez :",
+        "description": "Une fois la configuration terminée, vous recevrez un résumé détaillé et une estimation des coûts. Alternativement, utilisez l'option de contact pour discuter d'une personnalisation supplémentaire ou obtenir des conseils d'un spécialiste."
+      }
+    },
+    "keyFeatures": {
+      "title":"Caractéristiques Clés",
+      "interactiveSelections": {
+        "title": "Sélections Interactives :",
+        "description": "Des boutons cliquables pour chaque option fournissent une configuration et une personnalisation intuitives."
+      },
+      "dynamicUpdates": {
+        "title": "Mises à Jour Dynamiques :",
+        "description": "L'interface se met à jour en temps réel à mesure que vous faites vos sélections, reflétant la configuration actuelle de l'ambulance."
+      },
+      "comprehensiveCustomization": {
+        "title": "Personnalisation Complète :",
+        "description": "Personnalisez l'ambulance depuis le modèle de base jusqu'à l'équipement médical avancé pour répondre à des besoins spécifiques."
+      }
+    },
+    "summary": "Cet outil est conçu pour simplifier le processus de personnalisation des ambulances, en veillant à ce que tout l'équipement et les configurations nécessaires soient pris en compte, aidant ainsi les fournisseurs de services médicaux à préparer efficacement leurs véhicules."
+  },
+  "configurationPage": {
+    "pyschalEquipment": {
+      "title": "Équipement Physique",
+      "chooseFuelType": "Choisissez Votre Type de Carburant",
+      "chooseTractionType": "Choisissez Votre Type de Traction",
+      "chooseAmbulanceType": "Choisissez Votre Type d'Ambulance",
+      "chooseVehicleType": "Choisissez Votre Type de Véhicule",
+      "chooseExtraFeatures": "Choisissez Vos Caractéristiques Supplémentaires"
+    },
+    "medicalEquipment": {
+      "title": "Équipement Médical",
+      "mainStretcher": "Sélectionnez la Civière Principale",
+      "poldableStretcher": "Sélectionnez la Civière Pliable",
+      "firstAidKit": "Sélectionnez la Trousse de Premiers Secours",
+      "oxygenSystem": "Sélectionnez le Système d'Oxygène",
+      "portableOygenSystem": "Sélectionnez le Système d'Oxygène Portable",
+      "suctionAspiration": "Sélectionnez l'Aspiration par Succion",
+      "defibrillator": "Sélectionnez le Défibrillateur",
+      "bluetoothTransmissionSystem": "Sélectionnez le Système de Transmission Bluetooth",
+      "portableSuctionUnit": "Sélectionnez l'Unité de Succion Portable",
+      "manualSuctionUnit": "Sélectionnez l'Unité de Succion Manuelle",
+      "spineBoard": "Sélectionnez la Planche Dorsale",
+      "headImmobilizer": "Sélectionnez l'Immobilisateur de Tête",
+      "scoopStretcher": "Sélectionnez la Civière à Pelles",
+      "vacuumMattress": "Sélectionnez le Matelas à Vide",
+      "glucometer": "Sélectionnez le Glucomètre",
+      "portableVentilator": "Sélectionnez le Ventilateur Portable",
+      "portablePatientMonitor": "Sélectionnez le Moniteur de Patient Portable"
+    }
+  },
+  "buttons": {
+    "back": "Retour",
+    "next": "Suivant",
+    "submit": "Soumettre",
+    "contact": "Contactez-nous",
+    "cancel": "Annuler",
+    "finish": "Terminer",
+    "reset": "Réinitialiser",
+    "download": "Télécharger",
+    "send": "Envoyer"
+  },
+  "initAmbulance":{
+    "yourAmbulance": "Votre Ambulance",
+  "vehicleProperties": "Propriétés du Véhicule",
+  "pyschical": {
+    "fuelType": "Type de Carburant",
+    "tractionType": "Type de Traction",
+    "ambulanceType": "Type d'Ambulance",
+    "vehicleType": "Type de Véhicule",
+    "extraFeatures": "Caractéristiques Supplémentaires"
+  },
+  "medical": {
+    "mainStretcher": "Brancard Principal",
+    "foldableStretcher": "Brancard Pliable",
+    "firstAidKit": "Trousse de Premiers Secours",
+    "oxygenSystem": "Système d'Oxygène",
+    "portableOxygenSystem": "Système d'Oxygène Portable",
+    "defibrillator": "Défibrillateur",
+    "bluetoothTransmission": "Transmission Bluetooth",
+    "portableSuctionUnit": "Unité d'Aspiration Portable",
+    "manualSuctionUnit": "Unité d'Aspiration Manuelle",
+    "spineBoard": "Planche Dorsale",
+    "headImmobilizer": "Immobilisateur de Tête",
+    "scoopStretcher": "Brancard à Pelles",
+    "vacuumMattress": "Matelas à Vide",
+    "glucometer": "Glucomètre",
+    "portableVentilator": "Ventilateur Portable",
+    "portablePatientMonitor": "Moniteur Portable pour Patient",
+    "suctionAspiration": "Aspiration"
+  },
+  "totalPrice": "Prix Total"
+},
+"common": {
+    "equipment": "Équipement",
+    "brand": "Marque"
+  },
+  "contact": {
+    "name": "Nom",
+    "email": "Courriel",
+    "message": "Message",
+    "namePlaceholder": "Nom et Prénom",
+    "emailPlaceholder": "Votre Courriel",
+    "messagePlaceholder": "Votre Message",
+    "requiredName": "Nom est requis",
+    "requiredEmail": "Courriel est requis",
+    "requiredMessage": "Message est requis",
+    "invalidEmail": "Courriel invalide"
+  }
+
+}

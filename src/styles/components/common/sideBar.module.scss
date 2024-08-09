@@ -1,0 +1,59 @@
+@use "@/styles/variable" as v;
+@use "@/styles/mixins" as m;
+
+.sideBar {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 10px;   
+    border: 1px solid v.$sidebar-border-color;
+    background-color: v.$sidebar-background-color;
+    text-align: center;
+    position: relative;
+    overflow-y: scroll;
+   
+    h3{
+        font-size: 17px;
+        color: red;
+        font-weight: 700;
+        
+        
+    }
+    h4{
+        font-size: 17px;
+        font-weight: 600;
+        margin-bottom: 14px;
+    }
+    ul{
+        list-style: none;
+    }
+
+    .hvr{
+        cursor: pointer;
+        transition: color 1.3s ease;
+        border-radius: 100%;
+        
+        &:hover {
+            background-color: rgb(139, 166, 255); 
+          }
+    }
+
+    .rstIcon{
+        cursor: pointer;
+        transition: color 0.6s ease;
+        font-size: 20px;
+        
+        &:hover {
+           color:red; 
+          }
+    }
+      
+    
+}
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+@use "@/styles/variable" as v;
+@use "@/styles/mixins" as m;
+
+
+.traction_type {
+  width: 800px;
+  height: 350px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+
+  .traction_selected{
+    display: flex;
+    width: 800px;
+    font-weight: 600;
+    justify-content: space-evenly;
+    
+   
+  }
+    
+
+}
+@media screen and (max-width: 795px) {
+  .traction_type{
+    justify-content: start;
+    width: 60%;
+
+    .traction_selected{
+      justify-content: center !important;
+     
+    }
+  }
+  
+}

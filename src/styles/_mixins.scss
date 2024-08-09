@@ -1,0 +1,19 @@
+@mixin container($width: 90%) {
+    margin-right: auto;
+    margin-left: auto;
+    width: $width;
+  }
+@mixin transition($property) {
+    transition: $property 0.3s ease-in-out;
+    -webkit-transition: $property 0.3s ease-in-out;
+    -moz-transition: $property 0.3s ease-in-out;
+    -ms-transition: $property 0.3s ease-in-out;
+    -o-transition: $property 0.3s ease-in-out;
+  }
+@mixin borderRadius($radius) {
+    border-radius: $radius;
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    -o-border-radius: $radius;
+}  

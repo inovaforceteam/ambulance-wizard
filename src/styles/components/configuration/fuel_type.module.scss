@@ -1,0 +1,16 @@
+@use "@/styles/variable" as v;
+@use "@/styles/mixins" as m;
+
+
+.fuel_type{
+    display: flex;
+    justify-content: space-evenly;
+    margin :0 auto;
+    
+}   
+    
+@media screen and (max-width: 795px) {
+    .fuel_type{
+        justify-content: center;
+    }
+}

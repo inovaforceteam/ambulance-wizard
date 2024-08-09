@@ -1,0 +1,139 @@
+{
+  "home": {
+    "title": "Herramienta de Configuración de Ambulancias",
+    "overview": {
+    "title": "Descripción general",
+    "description": "Esta herramienta proporciona una interfaz fácil de usar para personalizar y configurar ambulancias de acuerdo con necesidades médicas y operativas específicas. Los usuarios pueden elegir entre varias opciones para equipar la ambulancia con el equipo médico y las características necesarias."
+  },
+  "howToUse": {
+    "title": "Cómo usar",
+      "step1": {
+        "title": "Elige el Tipo de Vehículo:",
+        "description": "Selecciona entre diferentes tipos de vehículos de ambulancia, como tipo furgoneta o tipo caja. Esta elección determina el modelo base de tu ambulancia."
+      },
+      "step2": {
+        "title": "Selecciona el Tipo de Ambulancia:",
+        "description": "Elige el tipo de servicio de ambulancia requerido—Soporte Vital Básico, Soporte Vital Avanzado o Cuidados Intensivos. Dependiendo de la elección, están disponibles opciones adicionales para configuraciones pediátricas o neonatales."
+      },
+      "step3": {
+        "title": "Añade Características Adicionales:",
+        "description": "Añade características adicionales a la ambulancia, como desfibriladores, monitores para signos vitales, sets de medicamentos e inyecciones, ventiladores portátiles y unidades de succión. Cada característica se puede añadir o quitar con un simple clic."
+      },
+      "step4": {
+        "title": "Finaliza la Configuración:",
+        "description": "Revisa tus elecciones, que se actualizan dinámicamente y se muestran a medida que seleccionas diferentes opciones. Ajusta tus selecciones según sea necesario antes de la presentación final."
+      },
+      "step5": {
+        "title": "Envía o Contacta:",
+        "description": "Una vez completada la configuración, recibirás un resumen detallado y una estimación de costos. Alternativamente, utiliza la opción de contacto para discutir una mayor personalización o recibir asesoramiento de un especialista."
+      }
+    },
+    "keyFeatures": {
+      "title":"Características Clave",
+      "interactiveSelections": {
+        "title": "Selecciones Interactivas:",
+        "description": "Botones clicables para cada opción proporcionan una configuración y personalización intuitiva."
+      },
+      "dynamicUpdates": {
+        "title": "Actualizaciones Dinámicas:",
+        "description": "La interfaz se actualiza en tiempo real a medida que haces selecciones, reflejando la configuración actual de la ambulancia."
+      },
+      "comprehensiveCustomization": {
+        "title": "Personalización Integral:",
+        "description": "Personaliza la ambulancia desde el modelo base hasta el equipo médico avanzado para satisfacer necesidades específicas."
+      }
+    },
+    "summary": "Esta herramienta está diseñada para simplificar el proceso de personalización de ambulancias, asegurando que se consideren todos los equipos y configuraciones necesarios, ayudando a los proveedores de servicios médicos a preparar eficazmente sus vehículos."
+  },
+  
+  "configurationPage": {
+    "pyschalEquipment": {
+      "title": "Equipo Físico",
+      "chooseFuelType": "Elija Su Tipo de Combustible",
+      "chooseTractionType": "Elija Su Tipo de Tracción",
+      "chooseAmbulanceType": "Elija Su Tipo de Ambulancia",
+      "chooseVehicleType": "Elija Su Tipo de Vehículo",
+      "chooseExtraFeatures": "Elija Sus Características Extras"
+    },
+    "medicalEquipment": {
+      "title": "Equipo Médico",
+      "mainStretcher": "Seleccionar Camilla Principal",
+      "poldableStretcher": "Seleccionar Camilla Plegable",
+      "firstAidKit": "Seleccionar Kit de Primeros Auxilios",
+      "oxygenSystem": "Seleccionar Sistema de Oxígeno",
+      "portableOygenSystem": "Seleccionar Sistema de Oxígeno Portátil",
+      "suctionAspiration": "Seleccionar Aspiración de Succión",
+      "defibrillator": "Seleccionar Desfibrilador",
+      "bluetoothTransmissionSystem": "Seleccionar Sistema de Transmisión Bluetooth",
+      "portableSuctionUnit": "Seleccionar Unidad de Succión Portátil",
+      "manualSuctionUnit": "Seleccionar Unidad de Succión Manual",
+      "spineBoard": "Seleccionar Tabla Espinal",
+      "headImmobilizer": "Seleccionar Inmovilizador de Cabeza",
+      "scoopStretcher": "Seleccionar Camilla de Cuchara",
+      "vacuumMattress": "Seleccionar Colchón de Vacío",
+      "glucometer": "Seleccionar Glucómetro",
+      "portableVentilator": "Seleccionar Ventilador Portátil",
+      "portablePatientMonitor": "Seleccionar Monitor de Paciente Portátil"
+    }
+  
+},
+"buttons": {
+    "back": "Atrás",
+    "next": "Siguiente",
+    "submit": "Enviar",
+    "contact": "Contáctenos",
+    "cancel": "Cancelar",
+    "finish": "Terminar",
+    "reset": "Restablecer",
+    "download": "Descargar",
+    "send": "Enviar"
+  },
+  "initAmbulance":{
+    "yourAmbulance": "Tu Ambulancia",
+  "vehicleProperties": "Propiedades del Vehículo",
+  "pyschical": {
+    "fuelType": "Tipo de Combustible",
+    "tractionType": "Tipo de Tracción",
+    "ambulanceType": "Tipo de Ambulancia",
+    "vehicleType": "Tipo de Vehículo",
+    "extraFeatures": "Características Extra"
+  },
+  "medical": {
+    "mainStretcher": "Camilla Principal",
+    "foldableStretcher": "Camilla Plegable",
+    "firstAidKit": "Botiquín de Primeros Auxilios",
+    "oxygenSystem": "Sistema de Oxígeno",
+    "portableOxygenSystem": "Sistema de Oxígeno Portátil",
+    "defibrillator": "Desfibrilador",
+    "bluetoothTransmission": "Transmisión por Bluetooth",
+    "portableSuctionUnit": "Unidad de Succión Portátil",
+    "manualSuctionUnit": "Unidad de Succión Manual",
+    "spineBoard": "Tabla Espinal",
+    "headImmobilizer": "Inmovilizador de Cabeza",
+    "scoopStretcher": "Camilla de Cuchara",
+    "vacuumMattress": "Colchón de Vacío",
+    "glucometer": "Glucómetro",
+    "portableVentilator": "Ventilador Portátil",
+    "portablePatientMonitor": "Monitor de Paciente Portátil",
+    "suctionAspiration": "Aspiración de Succión"
+  },
+  "totalPrice": "Precio Total"
+},
+"common": {
+    "equipment": "Equipo",
+    "brand": "Marca"
+  },
+  "contact": {
+    "name": "Nombre",
+    "email": "Correo Electrónico",
+    "message": "Mensaje",
+    "namePlaceholder": "Nombre y Apellidos",
+    "emailPlaceholder": "Su Correo Electrónico",
+    "messagePlaceholder": "Su Mensaje",
+    "requiredName": "Nombre es requerido",
+    "requiredEmail": "Correo Electrónico es requerido",
+    "requiredMessage": "Mensaje es requerido",
+    "invalidEmail": "Correo Electrónico no es valido"
+  }
+
+}

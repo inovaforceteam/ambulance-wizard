@@ -1,0 +1,137 @@
+{
+  "home":{
+  "title": "Ambulance Configuration Tool",
+  "overview": {
+    "title":"Overview", 
+    "Desciription":"This tool provides a user-friendly interface for customizing and configuring ambulances according to specific medical and operational needs. Users can choose from various options to equip the ambulance with the necessary medical equipment and features."},
+  "howToUse": {
+    "title":"How To Use",
+    "step1": {
+      "title": "Choose Vehicle Type:",
+      "description": "Select from different types of ambulance vehicles, such as van type or box type. This choice determines the base model of your ambulance."
+    },
+    "step2": {
+      "title": "Select Ambulance Type:",
+      "description": "Choose the required type of ambulance service—Basic Life Support, Advanced Life Support, or Intensive Care. Depending on the choice, additional options for pediatric or neonatal configurations are available."
+    },
+    "step3": {
+      "title": "Add Extra Features:",
+      "description": "Add additional features to the ambulance, such as defibrillators, monitors for vital signs, medication and injection sets, portable ventilators, and suction units. Each feature can be added or removed with a simple click."
+    },
+    "step4": {
+      "title": "Finalize Configuration:",
+      "description": "Review your choices, which are dynamically updated and displayed as you select different options. Adjust your selections as necessary before final submission."
+    },
+    "step5": {
+      "title": "Submit or Contact:",
+      "description": "Once the configuration is complete, you will receive a detailed summary and cost estimate. Alternatively, use the contact option to discuss further customization or advice with a specialist."
+    }
+  },
+  "keyFeatures": {
+    "title":"Key Features",
+    "interactiveSelections": {
+      "title": "Interactive Selections:",
+      "description": "Clickable buttons for each option provide intuitive setup and customization."
+    },
+    "dynamicUpdates": {
+      "title": "Dynamic Updates:",
+      "description": "The interface updates in real-time as you make selections, reflecting the current configuration of the ambulance."
+    },
+    "comprehensiveCustomization": {
+      "title": "Comprehensive Customization:",
+      "description": "Customize the ambulance from the base model to advanced medical equipment to meet specific needs."
+    }
+  },
+  "summary": "This tool is designed to simplify the process of ambulance customization, ensuring that all necessary equipment and configurations are considered, helping medical service providers effectively prepare their vehicles."
+},
+"configurationPage":{
+  "pyschalEquipment":{
+    "title": "Pyschal Equipment",
+    "chooseFuelType":"Choose Your Fuel Type",
+    "chooseTractionType":"Choose Your Traction Type",
+    "chooseAmbulanceType":"Choose Your Ambulance Type",
+    "chooseVehicleType":"Choose Your Vehicle Type",
+    "chooseExtraFeatures":"Choose Your Extra Features"
+
+  },
+  "medicalEquipment":{
+    "title":"Medical Equipment",
+    "mainStretcher":"Select Main Stretcher",
+    "poldableStretcher":"Select Poldable Stretcher",
+    "firstAidKit":"Select First Aid Kit",
+    "oxygenSystem":"Select Oxygen System",
+    "portableOygenSystem":"Select Portable Oxygen System",
+    "suctionAspiration":"Select Suction Aspiration",
+    "defibrillator":"Select Defibrillator",
+    "bluetoothTransmissionSystem":"Select Bluetooth Transmission System",
+    "portableSuctionUnit":"Select Portable Suction Unit",
+    "manualSuctionUnit":"Select Manual Suction Unit",
+    "spineBoard":"Select Spine Board",
+    "headImmobilizer":"Select Head Immobilizer",
+    "scoopStretcher":"Select Scoop Stretcher",
+    "vacuumMattress":"Select Vacuum Mattress",
+    "glucometer":"Select Glucometer",
+    "portableVentilator":"Select Portable Ventilator",
+    "portablePatientMonitor":"Select Portable Patient Monitor"
+  }
+},
+"buttons":{
+  "back":"Back",
+  "next":"Next",
+  "submit":"Submit",
+  "contact":"Contact Us",
+  "cancel":"Cancel",
+  "finish":"Finish",
+  "reset":"Reset",
+  "download":"Download",
+  "send":"Send"
+},
+"initAmbulance":{
+  "yourAmbulance":"Your Ambulance",
+  "vehicleProperties":"Vehicle Properties",
+  "pyschical": {
+    "fuelType": "Fuel Type",
+   "tractionType": "Traction Type",
+    "ambulanceType": "Ambulance Type",
+    "vehicleType": "Vehicle Type",
+   "extraFeatures": "Extra Features"
+  },
+ "medical": {
+    "mainStretcher": "Main Stretcher",
+    "foldableStretcher": "Foldable Stretcher",
+    "firstAidKit": "First Aid Kit",
+    "oxygenSystem": "Oxygen System",
+    "portableOxygenSystem": "Portable Oxygen System",
+    "defibrillator": "Defibrillator",
+    "bluetoothTransmission": "Bluetooth Transmission",
+    "portableSuctionUnit": "PortableSuctionUnit",
+    "manualSuctionUnit": "ManualSuctionUnit",
+    "spineBoard": "Spine Board",
+    "headImmobilizer": "HeadImmobilizer",
+    "scoopStretcher": "Scoop Stretcher",
+    "vacuumMattress": "Vacuum Mattress",
+    "glucometer": "Glucometer",
+    "portableVentilator": "Portable Ventilator",
+    "portablePatientMonitor": "Pportable Patient Monitor",
+    "suctionAspiration": "Suction Aspiration"
+  },
+  "totalPrice": "Total Price"
+},
+"common":{
+  "equipment":"Equipment",
+  "brand":"Brand"
+},
+"contact":{
+  "name":"Name",
+  "email":"Email",
+  "message":"Message",
+  "namePlaceholder":"Name and Surname",
+  "emailPlaceholder":"Your Email",
+  "messagePlaceholder":"Your Message",
+  "requiredName":"Name is required",
+  "requiredEmail":"Email is required",
+  "requiredMessage":"Message is required",
+  "invalidEmail":"Invalid Email"
+}
+
+}

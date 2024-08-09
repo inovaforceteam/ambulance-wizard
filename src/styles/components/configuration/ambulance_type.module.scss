@@ -1,0 +1,48 @@
+@use "@/styles/variable" as v;
+@use "@/styles/mixins" as m;
+
+.container{
+    display: flex;
+    flex-direction: column;
+    @include m.container(90%);
+    
+    .ambulance_type_container {       
+        display: flex;
+        width: 800px;
+        height: 350px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin:auto;
+
+        
+        SelectButton {
+            margin-top: 10px;
+            display: flex;               
+            flex: 1 1 auto; // Flex ayarı ile orantılı genişleme
+        }
+       
+    
+    
+    
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 855px) {
+    .ambulance_type_container{
+        justify-content: start !important;
+        width: 70% !important;
+        overflow-y: scroll;
+    }
+}
+
+
+
+
+
+

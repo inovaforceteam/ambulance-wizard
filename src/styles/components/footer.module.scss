@@ -1,0 +1,16 @@
+@use "@/styles/variable" as v;
+@use "@/styles/mixins" as m;
+
+.footer {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;  
+    background-color: v.$footer-background-color;  
+    color: whitesmoke;
+  //  left: 0;
+  //  right: 0;
+ 
+  
+}
