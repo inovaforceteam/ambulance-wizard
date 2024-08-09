@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation"; // useRouter yerine useNavigation i
 import { getAllInformation } from "@/services/api";
 import Image from "next/image";
 import SelectButton from "../common/select-button";
-import Label from "..common/label";
+import Label from "../common/label";
 import OptionButton from "../common/option-button";
 
 const PortablePatientMonitor = ({ setActive, generally, setGenerally,handleReset,name, buttons }) => {

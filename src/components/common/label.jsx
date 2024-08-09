@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '@/styles/components/label.module.scss'
+import styles from '@/styles/components/common/label.module.scss'
 
 const Label = ({title}) => {
   return (

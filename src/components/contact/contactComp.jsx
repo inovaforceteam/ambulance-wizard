@@ -3,8 +3,7 @@ import React, { useEffect, useState, useRef } from "react";
 import { Table, Button, Modal } from "react-bootstrap";
 import jsPDF from "jspdf";
 import html2canvas from "html2canvas";
-
-import FirmContactForm from "@/components/contact/contactForm";
+import FirmContactForm from "./contactForm";
 
 const ContactComp = ({ dict }) => {
   const [ambulanceData, setAmbulanceData] = useState(null);
@@ -18,7 +17,7 @@ const ContactComp = ({ dict }) => {
       const translatedData = translateKeys(parsedData);
       setAmbulanceData(translatedData);
     }
-  }, []);
+  }, [translateKeys]);
 
   const translateKeys = (data) => {
     const translatedPyschical = Object.fromEntries(

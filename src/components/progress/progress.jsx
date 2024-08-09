@@ -1,5 +1,5 @@
 "use client"
-import styles from  './progress.scss'
+import styles from  '@/styles/components/common/progress.module.scss'
 
 const Progress = ({step=5 ,active=0,setActive}) => { 
   return (
@@ -8,14 +8,14 @@ const Progress = ({step=5 ,active=0,setActive}) => {
         <>
           <button
             onClick={() => setActive(i + 1)}
-            className={styles.progress-dot}
+            className={styles.progressDot}
             style={{ backgroundColor: active - 1 === i ? "#da4d5e" : "" }}
 
           >
             {i + 1}
           </button>
           <div
-            className={styles.progress-dot}
+            className={styles.progressLine}
             style={{
               width: `${100 / (step - 1)}%`,
               backgroundColor: active - 1 > i ? "#da4d5e" : "",
@@ -25,7 +25,7 @@ const Progress = ({step=5 ,active=0,setActive}) => {
       ))}
       <button
         onClick={() => setActive(step)}
-        className={styles.progress-dot}
+        className={styles.progressDot}
         style={{ backgroundColor: active  === step ? "#da4d5e" : "" }}
       >
         {step}

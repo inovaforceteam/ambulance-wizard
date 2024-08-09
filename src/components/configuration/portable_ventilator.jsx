@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { getAllInformation } from "@/services/api";
 import Image from "next/image";
 import SelectButton from "../common/select-button"; // SelectButton bileşenini import ediyoruz
-import Label from "..common/label";
+import Label from "../common/label";
 import OptionButton from "../common/option-button";
 
 const PortableVentilator = ({ setActive, generally, setGenerally, name, buttons }) => {

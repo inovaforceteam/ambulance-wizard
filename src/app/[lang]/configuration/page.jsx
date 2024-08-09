@@ -62,14 +62,11 @@ import "./layout.scss"; */
 
 
 import ConfigComp from "./configComp";
-
-
 const ConfigurationPage = ({ dict}) => {
 
   return (
     <>
-     <HomeComp dict={dict}/>
-     <ConfigComp dict={dict}/>
+          <ConfigComp dict={dict}/>
     </>
    
   );

@@ -2,10 +2,10 @@
 import { useState, useEffect } from "react";
 import { getAllInformation } from "@/services/api";
 import Image from "next/image";
-import Label from "..common/label";
+import Label from "../common/label";
 import styles from "@/styles/components/configuration/vehicle_type.module.scss";
 import SelectButton from "../common/select-button";
-import OptionButton from "..common/option-button";
+import OptionButton from "../common/option-button";
 
 const VehicleTypeSelector = ({
   setActive,

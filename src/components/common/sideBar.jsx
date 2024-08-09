@@ -1,5 +1,5 @@
 'use client'
-import styles from "@/styles/components/sideBar.module.scss";
+import styles from "@/styles/components/common/sideBar.module.scss";
 import { useEffect, useState } from "react";
 import { AiOutlineCaretRight } from "react-icons/ai";
 import { AiOutlineCloseCircle } from "react-icons/ai";

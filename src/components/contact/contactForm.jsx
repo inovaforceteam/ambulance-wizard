@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { sendContactForm } from "@/lib/api";
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
-import styles from "@/components/contact/contact-form-.module.scss";
+import styles from "@/components/contact/contact-form.module.scss";
 
 const initValues = {
   name: "",

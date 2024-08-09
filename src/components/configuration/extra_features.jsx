@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
-import Label from "..common/label";
-import OptionButton from "..common/option-button";
+import Label from "../common/label";
+import OptionButton from "../common/option-button";
 import styles from "@/styles/components/configuration/extra_features.module.scss";
 
 const ExtraFeaturesSelector = ({

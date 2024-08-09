@@ -2,7 +2,7 @@
 import React from "react";
 import FuelTypeSelector from "../configuration/fuel-type";
 import TractionTypeSelector from "../configuration/traction_type";
-import AmbulanceType from "../configuration/ambulance_type";
+import AmbulanceType from "../configuration/ambulance-type";
 import VehicleTypeSelector from "../configuration/vehicle_type";
 import ExtraFeaturesSelector from "../configuration/extra_features";
 

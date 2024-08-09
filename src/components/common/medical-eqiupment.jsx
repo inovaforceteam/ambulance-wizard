@@ -14,7 +14,7 @@ import ScoopStretcher from "../configuration/scoop_stretcher";
 import VacuumMattress from "../configuration/vacuum_mattress";
 import Glucometer from "../configuration/glucometer";
 import PortableVentilator from "../configuration/portable_ventilator";
-import PortablePatientMonitor from "../configuration/portable_patient_monior";
+import PortablePatientMonitor from "../configuration/portable_patient_monitor";
 import SuctionAspiration from "../configuration/suction_aspiration";
 
 const MedicalEqiupment = ({ setActive, active, setSection, section , generally, setGenerally,handleReset,dict,buttons}) => {

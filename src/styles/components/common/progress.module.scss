@@ -1,0 +1,26 @@
+
+.progress{
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    width: 90%;
+    height: 50px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    
+    .progressDot{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #FBF79E;
+        color: rgb(0, 0, 0);
+    }
+    .progressLine{
+       
+        height: 5px;
+        background-color: #c1bebe;
+        transition: background-color 0.5s ease-in;
+    }
+}
