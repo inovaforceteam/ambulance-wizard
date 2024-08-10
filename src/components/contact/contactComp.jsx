@@ -17,7 +17,7 @@ const ContactComp = ({ dict }) => {
       const translatedData = translateKeys(parsedData);
       setAmbulanceData(translatedData);
     }
-  }, [translateKeys]);
+  }, []);
 
   const translateKeys = (data) => {
     const translatedPyschical = Object.fromEntries(
