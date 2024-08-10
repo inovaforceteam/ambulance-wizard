@@ -3,9 +3,8 @@ import styles from "@/styles/components/common/language.module.scss";
 import { Button, Modal } from "react-bootstrap";
 
 const ModalComp = ({ dict, show, onHide }) => {
- 
   const { home } = dict;
-  const { title, overview, howToUse, keyFeatures, summary } = home;
+  const { title, howToUse, keyFeatures, summary } = home;
 
   return (
     <Modal
@@ -22,13 +21,9 @@ const ModalComp = ({ dict, show, onHide }) => {
         </Modal.Title>
       </Modal.Header>
 
-      <Modal.Body >
+      <Modal.Body>
         <div className={styles.container}>
           <h2 className={styles.title}>{title}</h2>
-          <h3>
-            <u>{overview.title}</u>
-          </h3>
-          
           <h3>
             <u>{howToUse.title}</u>
           </h3>
@@ -71,4 +66,3 @@ const ModalComp = ({ dict, show, onHide }) => {
 };
 
 export default ModalComp;
-
