@@ -28,7 +28,7 @@ const ModalComp = ({ dict, show, onHide }) => {
           <h3>
             <u>{overview.title}</u>
           </h3>
-          <p>{overview.description}</p>
+          
           <h3>
             <u>{howToUse.title}</u>
           </h3>
