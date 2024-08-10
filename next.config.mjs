@@ -9,7 +9,7 @@ export default {
         {
          protocol: 'https',
          hostname: 'mockapi.io',
-         path: '/projects'},
+         path: '/infinitychassis'},
       ],
     },
 
